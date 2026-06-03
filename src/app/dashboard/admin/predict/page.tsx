@@ -329,7 +329,7 @@ export default function AdminPredictPage() {
 
             {/* Internal Marks input */}
             <motion.div whileTap={{ scale: 0.99 }} className="space-y-1.5">
-              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Internal Assessments (0 - 50)</label>
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Internal Assessments (0 - 100)</label>
               <input
                 type="number"
                 min="0"
@@ -361,7 +361,7 @@ export default function AdminPredictPage() {
 
             {/* Practical Marks input */}
             <motion.div whileTap={{ scale: 0.99 }} className="space-y-1.5">
-              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Practical Laboratory Marks (0 - 50)</label>
+              <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Practical Laboratory Marks (0 - 100)</label>
               <input
                 type="number"
                 min="0"
