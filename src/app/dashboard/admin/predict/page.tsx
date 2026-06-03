@@ -333,7 +333,7 @@ export default function AdminPredictPage() {
               <input
                 type="number"
                 min="0"
-                max="50"
+                max="100"
                 placeholder="e.g. 42"
                 value={internalMarks}
                 onChange={(e) => setInternalMarks(e.target.value === '' ? '' : parseFloat(e.target.value))}
@@ -365,7 +365,7 @@ export default function AdminPredictPage() {
               <input
                 type="number"
                 min="0"
-                max="50"
+                max="100"
                 placeholder="e.g. 44"
                 value={practicalMarks}
                 onChange={(e) => setPracticalMarks(e.target.value === '' ? '' : parseFloat(e.target.value))}
